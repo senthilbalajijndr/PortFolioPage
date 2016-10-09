@@ -1,0 +1,223 @@
+
+<html>
+	<head>
+		<title>
+		try 2 of Portfolio page
+		</title>
+		<link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name ="viewport" content ="device-width,initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="css/text" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Akronim|Alex+Brush|Alfa+Slab+One|Allan|Allerta+Stencil|Allura|Antic+Didone|Indie+Flower" rel="stylesheet">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+		<script src="https://use.fontawesome.com/e9b2652841.js"></script>
+	</head>
+  <style>
+		.di
+			{
+				height:675px;
+				background-position:center;
+				background-size:cover;
+				
+			}
+		.text
+			{
+				text-align:center;
+				color:#f99;
+			}
+		.hre
+			{
+			width:60%;
+			border-top:3px solid #daa;
+			}
+		.butto
+			{
+			background-color:#522d72;
+			border-radius:28px;
+			border:3px solid #3e0272;
+			display:inline-block;
+			color:#000;
+			cursor:pointer;
+			font-size:17px;
+			padding:16px 31px;
+			text-decoration:none;
+			text-shadow:0px 1px 0px #2f6627;
+			}
+		.butto:active
+			{
+			position:relative;
+			top:4px;
+			}
+		.butto:hover
+			{
+			background-color:#f99;
+			border:3px solid #59140d;
+			color:#522d72;
+			}
+		.imh
+			{
+			height:300px;
+			width:300px;
+			border-radius:1000px;
+			}
+		.tra
+			{
+			width:45%;
+			color:#fff;
+			margin-top:30px;
+			margin-left:5%;
+			}
+		.wee
+			{
+			height:300px;
+			width:300px;
+			position:relative;
+			margin-top:15px;
+			left:100px;
+			margin-right:100px;
+			transition: all .2s ease-in-out;
+			}
+		.topbox
+			{
+			height:80px;
+			width:300px;
+			top:0px;
+			left:0px;
+			background-color:#000;
+			position:absolute;
+			color:#f85;
+			}
+		.wee:active
+			{
+			position:relative;
+			top:5px;
+			}	
+		.smallbox
+			{
+			height:300px;
+			width:100%;
+			background-color:#83d6fc;
+			}
+		.bottombox
+			{
+			top:80px;
+			left:0px;
+			background-size:cover;
+			background-position:center;
+			height:220px;
+			width:300px;
+			position:absolute;
+			}
+		.wee:hover
+			{
+			transform: scale(1.1);
+			}
+		.topimg
+			{
+			height:50px;
+			width:50px;
+			border-radius:500px;
+			}
+	</style>
+	<body>
+				<nav class="navbar navbar-inverse navbar-fixed-top">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<img src="https://dcw9y8se13llu.cloudfront.net/avatars/senthilbalajijndr.jpg?1475710667" class="topimg">
+							<a class="navbar-brand" href="#">Web Developer Portfolio</a>
+						</div>
+						<ul class="nav navbar-nav">
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About Me</a></li>
+							<li><a href="#pro">Projects done so for</a></li>
+							<li><a href="#contact">Contant me</a></li>
+						</ul>
+					</div>
+				</nav>
+
+				<div class="di" id="home" style="background-image:url('https://i.kinja-img.com/gawker-media/image/upload/s--FFd7ZflW--/18ecacc9766m3jpg.jpg');background-attachment:fixed;">
+					<div class="row">
+						<h1 class="text" style="font-family:lobster;font-size:4em;padding-top:15%;">Web Developer Portfolio</h1>
+						<h3 class="text" style="font-family:Indie Flower;">Technology needs programming and that's what I'm Passionate about</h3>
+						<hr class="hre">
+							<p class="text-center">
+								<button class="butto" onclick="parent.open('www.facebook.com/senthl.g.balaji@gmail.com')"><span class="fa fa-facebook"></span> FACEBOOK</button>
+								<button class="butto" onclick="parent.open('https://plus.google.com/u/0/111800853068658503968');" ><span class="fa fa-google-plus"></span> GOOGLE+</button>
+								<button class="butto" onclick="parent.open('https://www.freecodecamp.com/senthilbalajijndr');"><span class="fa fa-fire fa-fw"></span> FREE CODE CAMP</button>
+							</p>
+					</div>
+				</div>
+				<div class="di" id="about" style="background-image:url('http://wallpaperepic.com/wp-content/uploads/2016/04/Awesome-Wallpapers-5MP.jpg');background-attachment:fixed;">
+					<div class="row">
+						<div class="tra col-lg-8">
+						<h2 style="font-family:lobster;font-size:4em;" class="text-center">ABOUT ME</h2>
+						<p class="text-center" style="font-family:Alfa Slab One|Allan|Allerta;font-size:150%;">I'm a self taught web designer, developer, co-founder and entrepreneur based in Finland.
+						   I'm currently part of a small VR(Virtual Reality) development team in an upcoming start-up called Virtual-Dawn, developing awesome VR games. I'm also responsible for all of my company's web development needs.
+							My passion is to use technology based solutions, to help solve real world challenges.
+							Competences:
+							Languages and Frameworks:
+							Javascript, C#m HTML5, CSS3, jQuery, Bootstrap3, Angular.js, Meteor.js.
+							Tools & expertise:
+							Git, Responsive Web Design, Agile Methodologies, Unity5 3D, Photoshop, VR Level Design, and Unity Generalist.</p>
+						</div>
+						<img class="imh col-lg-4"src="https://lh3.googleusercontent.com/-WWebpI6qKBg/AAAAAAAAAAI/AAAAAAAAADM/skYkZ2oeago/photo.jpg" style="margin-top:150px; margin-left:100px">
+					</div>
+				</div>
+
+
+
+				<div class="di" id="pro" style="background-image:url('https://i.ytimg.com/vi/4AA4qYGunr4/maxresdefault.jpg');background-attachment:fixed;">
+					<div class="row">
+						<div class="col-lg-4 col-sm-6 col-md-3 col-xs-12 wee">
+							<div class="topbox">
+								<h3 class="text-center boxhead">Web Developmet</h3>
+							</div>
+							<div class="bottombox" style="background-image:url('https://vertalab.com/uploads/post/thumb/30/web-app-development.jpg');">
+							</div>
+						</div>
+							<div class="col-lg-4 col-sm-6 col-md-3 col-xs-12 wee">
+								<div class="topbox">
+									<h3 class="text-center boxhead">Android App Development</h3>
+								</div>
+								<div class="bottombox" style="background-image:url('http://rootinfosol.com/sites/default/files/2016-04/android-App-Development.jpg');">
+								</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 col-md-3 col-xs-12 wee">
+							<div class="topbox">
+								<h3 class="text-center boxhead">Arduino Codings</h3>
+							</div>
+							<div class="bottombox" style="background-image:url('https://cdn.instructables.com/F6R/IPAP/HQF9H5IO/F6RIPAPHQF9H5IO.MEDIUM.jpg');">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4 col-md-3 col-sm-6 col-xs-12 wee" style="left:300px">
+							<div class="topbox">
+								<h3 class="text-center boxhead">Blogging</h3>
+							</div>
+							<div class="bottombox" style="background-image:url('http://garretthoyos.com/uploads/3/9/0/0/3900289/1386570_orig.png');">
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-3 col-sm-6 col-xs-12 wee" style="left:300px">
+							<div class="topbox">
+								<h3 class="text-center boxhead">Electronics</h3>
+							</div>
+							<div class="bottombox" style="background-image:url('https://i.ytimg.com/vi/OoFwdwLQFik/maxresdefault.jpg');">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="di" id="contact"style="background-image:url('https://i.imgur.com/lxshr2p.jpg');background-attachment:fixed;">
+					<p style="font-family:lobster;font-size:3em;padding-top:200px;color:#faa;" class="text-center">To Know More about me Click on any of these link and contact me. Happy visiting!!!</p>
+					<p class="text-center" style="margin-top:100px;" >
+								<button class="butto" onclick="parent.open('www.facebook.com/senthl.g.balaji@gmail.com')"><span class="fa fa-facebook"></span> FACEBOOK</button>
+								<button class="butto" onclick="parent.open('https://plus.google.com/u/0/111800853068658503968');" ><span class="fa fa-google-plus"></span> GOOGLE+</button>
+								<button class="butto" onclick="parent.open('https://www.freecodecamp.com/senthilbalajijndr');"><span class="fa fa-fire fa-fw"></span> FREE CODE CAMP</button>
+							</p>
+				</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</body>
+</html>
